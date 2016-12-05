@@ -1,4 +1,10 @@
 $gutter: 1rem;
+$outer: 5rem;
+$inner: calc(#{$outer} - 1rem);
+
+* {
+  box-sizing: border-box;
+}
 
 @keyframes spinRight {
   from {
@@ -37,10 +43,14 @@ $gutter: 1rem;
 .circle {
 
   &-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
     border-left: 1px solid black;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
+    width: $outer;
+    height: $outer;
+    border-radius: $outer;
     -ms-animation: spinRight 1s linear infinite;
     -moz-animation: spinRight 1s linear infinite;
     -webkit-animation: spinRight 1s linear infinite;
@@ -49,14 +59,15 @@ $gutter: 1rem;
   }
 
   &-inner {
-    border-left: 1px solid black;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    -ms-animation: spinRight 1s linear infinite;
-    -moz-animation: spinRight 1s linear infinite;
-    -webkit-animation: spinRight 1s linear infinite;
-    -o-animation: spinRight 1s linear infinite;
-    animation: spinRight 1s linear infinite;
+    border: 1px solid white;
+    border-right: 1px solid black;
+    width: $inner;
+    height: $inner;
+    border-radius: $inner;
+    -ms-animation: spinLeft 3s linear infinite;
+    -moz-animation: spinLeft 3s linear infinite;
+    -webkit-animation: spinLeft 3s linear infinite;
+    -o-animation: spinLeft 3s linear infinite;
+    animation: spinLeft 3s linear infinite;
   }
 }
