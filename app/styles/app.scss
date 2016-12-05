@@ -51,11 +51,11 @@ $inner: calc(#{$outer} - 1rem);
     width: $outer;
     height: $outer;
     border-radius: $outer;
-    -ms-animation: spinRight 1s linear infinite;
-    -moz-animation: spinRight 1s linear infinite;
-    -webkit-animation: spinRight 1s linear infinite;
-    -o-animation: spinRight 1s linear infinite;
-    animation: spinRight 1s linear infinite;
+    -ms-animation: spinRight 2s linear infinite;
+    -moz-animation: spinRight 2s linear infinite;
+    -webkit-animation: spinRight 2s linear infinite;
+    -o-animation: spinRight 2s linear infinite;
+    animation: spinRight 2s linear infinite;
   }
 
   &-inner {
