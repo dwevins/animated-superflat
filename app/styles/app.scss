@@ -1,0 +1,19 @@
+$gutter: 1rem;
+
+@keyframes spinRight {
+  0%  {transform: rotateZ(0)}
+  // 50%  {transform: rotateZ(180deg)}
+  100%  {transform: rotateZ(360deg)}
+}
+
+.circle  {
+  border-left: 1px solid black;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  animation-name: spinRight;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+}
