@@ -9,11 +9,11 @@
     width: $outer;
     height: $outer;
     border-radius: $outer;
-    -ms-animation: spin $outerRate;
-    -moz-animation: spin $outerRate;
-    -webkit-animation: spin $outerRate;
-    -o-animation: spin $outerRate;
-    animation: spin $outerRate;
+    // -ms-animation: spin $outerRate;
+    // -moz-animation: spin $outerRate;
+    // -webkit-animation: spin $outerRate;
+    // -o-animation: spin $outerRate;
+    // animation: spin $outerRate;
   }
 
   &-inner {
@@ -21,25 +21,26 @@
     align-items: center;
     justify-content: center;
     border: 3px $invisibleBorder;
-    border-top: 3px $visibleBorder;
-    border-left: 3px $visibleBorder;
+    border: 3px $visibleBorder;
+    // border-top: 3px $visibleBorder;
+    // border-left: 3px $visibleBorder;
     width: $inner;
     height: $inner;
     border-radius: $inner;
-    -ms-animation: spin $innerRate;
-    -moz-animation: spin $innerRate;
-    -webkit-animation: spin $innerRate;
-    -o-animation: spin $innerRate;
-    animation: spin $innerRate;
-    animation-direction: reverse;
+    // -ms-animation: spin $innerRate;
+    // -moz-animation: spin $innerRate;
+    // -webkit-animation: spin $innerRate;
+    // -o-animation: spin $innerRate;
+    // animation: spin $innerRate;
+    // animation-direction: reverse;
   }
 
   &-inner2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px $invisibleBorder;
-    border-right: 2px $visibleBorder;
+    border: 2px $visibleBorder;
+    // border-right: 2px $visibleBorder;
     width: $inner2;
     height: $inner2;
     border-radius: $inner2;
@@ -56,11 +57,11 @@
     width: $inner3;
     height: $inner3;
     border-radius: $inner3;
-    -ms-animation: spin $inner3Rate;
-    -moz-animation: spin $inner3Rate;
-    -webkit-animation: spin $inner3Rate;
-    -o-animation: spin $inner3Rate;
-    animation: spin $inner3Rate;
-    animation-direction: reverse;
+    // -ms-animation: spin $inner3Rate;
+    // -moz-animation: spin $inner3Rate;
+    // -webkit-animation: spin $inner3Rate;
+    // -o-animation: spin $inner3Rate;
+    // animation: spin $inner3Rate;
+    // animation-direction: reverse;
   }
 }
