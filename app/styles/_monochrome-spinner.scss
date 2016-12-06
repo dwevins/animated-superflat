@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    border-left: 1px solid white;
+    border: 1px $visibleBorder;
+    border-left: 1px $invisibleBorder;
     width: $outer;
     height: $outer;
     border-radius: $outer;
@@ -20,9 +20,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid white;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
+    border: 3px $invisibleBorder;
+    border-top: 3px $visibleBorder;
+    border-left: 3px $visibleBorder;
     width: $inner;
     height: $inner;
     border-radius: $inner;
@@ -38,8 +38,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
-    border-right: 2px solid black;
+    border: 2px $invisibleBorder;
+    border-right: 2px $visibleBorder;
     width: $inner2;
     height: $inner2;
     border-radius: $inner2;
@@ -51,8 +51,8 @@
   }
 
   &-inner3 {
-    border: 1px solid black;
-    border-top: 1px solid white;
+    border: 1px $visibleBorder;
+    border-top: 1px $invisibleBorder;
     width: $inner3;
     height: $inner3;
     border-radius: $inner3;

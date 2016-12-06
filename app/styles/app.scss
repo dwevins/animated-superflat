@@ -8,6 +8,8 @@ $outerRate: 2s $spinStyle;
 $innerRate: 1s $spinStyle;
 $inner2Rate: 1.2s $spinStyle;
 $inner3Rate: 0.8s $spinStyle;
+$visibleBorder: solid black;
+$invisibleBorder: solid white;
 
 @import "globals";
 @import "animations";
