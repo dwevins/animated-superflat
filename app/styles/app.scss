@@ -1,8 +1,13 @@
 $gutter: 1rem;
+$spinStyle: linear infinite;
 $outer: 5rem;
 $inner: calc(#{$outer} - 1rem);
 $inner2: calc(#{$inner} - 1rem);
 $inner3: calc(#{$inner2} - 2rem);
+$outerRate: 2s $spinStyle;
+$innerRate: 1s $spinStyle;
+$inner2Rate: 1.2s $spinStyle;
+$inner3Rate: 0.8s $spinStyle;
 
 @import "globals";
 @import "animations";

@@ -9,11 +9,11 @@
     width: $outer;
     height: $outer;
     border-radius: $outer;
-    -ms-animation: spinRight 2s linear infinite;
-    -moz-animation: spinRight 2s linear infinite;
-    -webkit-animation: spinRight 2s linear infinite;
-    -o-animation: spinRight 2s linear infinite;
-    animation: spinRight 2s linear infinite;
+    -ms-animation: spin $outerRate;
+    -moz-animation: spin $outerRate;
+    -webkit-animation: spin $outerRate;
+    -o-animation: spin $outerRate;
+    animation: spin $outerRate;
   }
 
   &-inner {
@@ -26,11 +26,11 @@
     width: $inner;
     height: $inner;
     border-radius: $inner;
-    -ms-animation: spinRight 1s linear infinite;
-    -moz-animation: spinRight 1s linear infinite;
-    -webkit-animation: spinRight 1s linear infinite;
-    -o-animation: spinRight 1s linear infinite;
-    animation: spinRight 1s linear infinite;
+    -ms-animation: spin $innerRate;
+    -moz-animation: spin $innerRate;
+    -webkit-animation: spin $innerRate;
+    -o-animation: spin $innerRate;
+    animation: spin $innerRate;
     animation-direction: reverse;
   }
 
@@ -43,11 +43,11 @@
     width: $inner2;
     height: $inner2;
     border-radius: $inner2;
-    -ms-animation: spinRight 1.2s linear infinite;
-    -moz-animation: spinRight 1.2s linear infinite;
-    -webkit-animation: spinRight 1.2s linear infinite;
-    -o-animation: spinRight 1.2s linear infinite;
-    animation: spinRight 1.2s linear infinite;
+    -ms-animation: spin $inner2Rate;
+    -moz-animation: spin $inner2Rate;
+    -webkit-animation: spin $inner2Rate;
+    -o-animation: spin $inner2Rate;
+    animation: spin $inner2Rate;
   }
 
   &-inner3 {
@@ -56,11 +56,11 @@
     width: $inner3;
     height: $inner3;
     border-radius: $inner3;
-    -ms-animation: spinRight 0.5s linear infinite;
-    -moz-animation: spinRight 0.5s linear infinite;
-    -webkit-animation: spinRight 0.5s linear infinite;
-    -o-animation: spinRight 0.5s linear infinite;
-    animation: spinRight 0.5s linear infinite;
+    -ms-animation: spin $inner3Rate;
+    -moz-animation: spin $inner3Rate;
+    -webkit-animation: spin $inner3Rate;
+    -o-animation: spin $inner3Rate;
+    animation: spin $inner3Rate;
     animation-direction: reverse;
   }
 }
