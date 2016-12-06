@@ -26,11 +26,12 @@
     width: $inner;
     height: $inner;
     border-radius: $inner;
-    -ms-animation: spinLeft 0.7s linear infinite;
-    -moz-animation: spinLeft 0.7s linear infinite;
-    -webkit-animation: spinLeft 0.7s linear infinite;
-    -o-animation: spinLeft 0.7s linear infinite;
-    animation: spinLeft 0.7s linear infinite;
+    -ms-animation: spinRight 1s linear infinite;
+    -moz-animation: spinRight 1s linear infinite;
+    -webkit-animation: spinRight 1s linear infinite;
+    -o-animation: spinRight 1s linear infinite;
+    animation: spinRight 1s linear infinite;
+    animation-direction: reverse;
   }
 
   &-inner2 {
@@ -42,11 +43,11 @@
     width: $inner2;
     height: $inner2;
     border-radius: $inner2;
-    -ms-animation: spinLeft 8s linear infinite;
-    -moz-animation: spinLeft 8s linear infinite;
-    -webkit-animation: spinLeft 8s linear infinite;
-    -o-animation: spinLeft 8s linear infinite;
-    animation: spinLeft 8s linear infinite;
+    -ms-animation: spinRight 1.2s linear infinite;
+    -moz-animation: spinRight 1.2s linear infinite;
+    -webkit-animation: spinRight 1.2s linear infinite;
+    -o-animation: spinRight 1.2s linear infinite;
+    animation: spinRight 1.2s linear infinite;
   }
 
   &-inner3 {
@@ -55,10 +56,11 @@
     width: $inner3;
     height: $inner3;
     border-radius: $inner3;
-    -ms-animation: spinRight 0.3s linear infinite;
-    -moz-animation: spinRight 0.3s linear infinite;
-    -webkit-animation: spinRight 0.3s linear infinite;
-    -o-animation: spinRight 0.3s linear infinite;
-    animation: spinRight 0.3s linear infinite;
+    -ms-animation: spinRight 0.5s linear infinite;
+    -moz-animation: spinRight 0.5s linear infinite;
+    -webkit-animation: spinRight 0.5s linear infinite;
+    -o-animation: spinRight 0.5s linear infinite;
+    animation: spinRight 0.5s linear infinite;
+    animation-direction: reverse;
   }
 }
